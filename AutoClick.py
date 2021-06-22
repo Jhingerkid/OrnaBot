@@ -103,10 +103,10 @@ def check(monsterName):
 
 def monsterLocater():
     monsterList = [
-        "Bandit", "RedSlime", "Skeleton", "Wisp", "Wolfman", 
+        "Goblin", "RedSlime", "Skeleton", "Wisp", "Wolfman", 
         "Demon", "Rat", "Draconian", "FeralHorse", 
         "Hawk", "Crow", "LivingArmor", "Spider", "Flame",
-        "FallenWarrior", "GoblinMage", "EvilEye"
+        "FallenWarrior","Bandit", "EvilEye", "GreaterSnake"
         ]
     while keyboard.is_pressed('q') == False:
         for monsterName in monsterList:
